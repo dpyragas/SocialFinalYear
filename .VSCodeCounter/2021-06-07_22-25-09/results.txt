@@ -1,0 +1,112 @@
+Date : 2021-06-07 22:25:09
+Directory : /Users/dom/Desktop/BCU-Connect
+Total : 58 files,  42068 codes, 158 comments, 321 blanks, all 42547 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          4 |     39,316 |          0 |          4 |     39,320 |
+| JavaScript |         35 |      1,920 |        144 |        172 |      2,236 |
+| CSS        |         17 |        773 |         14 |        110 |        897 |
+| Markdown   |          1 |         38 |          0 |         33 |         71 |
+| HTML       |          1 |         21 |          0 |          2 |         23 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |         58 |     42,068 |        158 |        321 |     42,547 |
+| api                                                                              |         12 |      5,134 |         25 |         68 |      5,227 |
+| api/models                                                                       |          4 |        116 |          0 |         12 |        128 |
+| api/routes                                                                       |          5 |        285 |         24 |         46 |        355 |
+| client                                                                           |         46 |     36,934 |        133 |        253 |     37,320 |
+| client/public                                                                    |          2 |         25 |          0 |          2 |         27 |
+| client/public/assets                                                             |          1 |          4 |          0 |          0 |          4 |
+| client/src                                                                       |         41 |      2,237 |        133 |        216 |      2,586 |
+| client/src/components                                                            |         22 |      1,055 |         78 |        116 |      1,249 |
+| client/src/components/chat                                                       |          2 |         51 |          0 |          6 |         57 |
+| client/src/components/chatOnline                                                 |          2 |         84 |          0 |          8 |         92 |
+| client/src/components/closeFriend                                                |          2 |         22 |          0 |          3 |         25 |
+| client/src/components/feed                                                       |          2 |         39 |          0 |          5 |         44 |
+| client/src/components/message                                                    |          2 |         51 |          0 |          7 |         58 |
+| client/src/components/online                                                     |          2 |         41 |          0 |          7 |         48 |
+| client/src/components/post                                                       |          2 |        157 |          0 |         21 |        178 |
+| client/src/components/rightbar                                                   |          2 |        226 |         57 |         24 |        307 |
+| client/src/components/share                                                      |          2 |        173 |          0 |         21 |        194 |
+| client/src/components/sidebar                                                    |          2 |         82 |          5 |         10 |         97 |
+| client/src/components/topbar                                                     |          2 |        129 |         16 |          4 |        149 |
+| client/src/context                                                               |          3 |         87 |          0 |         14 |        101 |
+| client/src/pages                                                                 |         12 |        899 |         55 |         76 |      1,030 |
+| client/src/pages/home                                                            |          2 |         21 |          0 |          2 |         23 |
+| client/src/pages/login                                                           |          3 |        281 |          0 |         24 |        305 |
+| client/src/pages/messenger                                                       |          2 |        173 |          0 |         11 |        184 |
+| client/src/pages/profile                                                         |          2 |         95 |          7 |         14 |        116 |
+| client/src/pages/register                                                        |          3 |        329 |         48 |         25 |        402 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                         | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/dom/Desktop/BCU-Connect/api/index.js                                      | JavaScript |         51 |          1 |          8 |         60 |
+| /Users/dom/Desktop/BCU-Connect/api/models/Chat.js                                | JavaScript |         10 |          0 |          3 |         13 |
+| /Users/dom/Desktop/BCU-Connect/api/models/Message.js                             | JavaScript |         16 |          0 |          3 |         19 |
+| /Users/dom/Desktop/BCU-Connect/api/models/Post.js                                | JavaScript |         26 |          0 |          3 |         29 |
+| /Users/dom/Desktop/BCU-Connect/api/models/User.js                                | JavaScript |         64 |          0 |          3 |         67 |
+| /Users/dom/Desktop/BCU-Connect/api/package-lock.json                             | JSON       |      4,659 |          0 |          1 |      4,660 |
+| /Users/dom/Desktop/BCU-Connect/api/package.json                                  | JSON       |         23 |          0 |          1 |         24 |
+| /Users/dom/Desktop/BCU-Connect/api/routes/auth.js                                | JavaScript |         30 |          5 |          8 |         43 |
+| /Users/dom/Desktop/BCU-Connect/api/routes/chat.js                                | JavaScript |         34 |          3 |          9 |         46 |
+| /Users/dom/Desktop/BCU-Connect/api/routes/messages.js                            | JavaScript |         22 |          2 |          7 |         31 |
+| /Users/dom/Desktop/BCU-Connect/api/routes/posts.js                               | JavaScript |         92 |          8 |         12 |        112 |
+| /Users/dom/Desktop/BCU-Connect/api/routes/users.js                               | JavaScript |        107 |          6 |         10 |        123 |
+| /Users/dom/Desktop/BCU-Connect/client/README.md                                  | Markdown   |         38 |          0 |         33 |         71 |
+| /Users/dom/Desktop/BCU-Connect/client/package-lock.json                          | JSON       |     34,589 |          0 |          1 |     34,590 |
+| /Users/dom/Desktop/BCU-Connect/client/package.json                               | JSON       |         45 |          0 |          1 |         46 |
+| /Users/dom/Desktop/BCU-Connect/client/public/assets/style.css                    | CSS        |          4 |          0 |          0 |          4 |
+| /Users/dom/Desktop/BCU-Connect/client/public/index.html                          | HTML       |         21 |          0 |          2 |         23 |
+| /Users/dom/Desktop/BCU-Connect/client/src/App.js                                 | JavaScript |         36 |          0 |          3 |         39 |
+| /Users/dom/Desktop/BCU-Connect/client/src/apiCalls.js                            | JavaScript |         10 |          0 |          3 |         13 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/chat/Chat.js                | JavaScript |         31 |          0 |          4 |         35 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/chat/chat.css               | CSS        |         20 |          0 |          2 |         22 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/chatOnline/ChatOnline.js    | JavaScript |         52 |          0 |          3 |         55 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/chatOnline/chatOnline.css   | CSS        |         32 |          0 |          5 |         37 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/closeFriend/CloseFriend.jsx | JavaScript |         10 |          0 |          2 |         12 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/closeFriend/closeFriend.css | CSS        |         12 |          0 |          1 |         13 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/feed/Feed.jsx               | JavaScript |         33 |          0 |          4 |         37 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/feed/feed.css               | CSS        |          6 |          0 |          1 |          7 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/message/Message.js          | JavaScript |         20 |          0 |          3 |         23 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/message/message.css         | CSS        |         31 |          0 |          4 |         35 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/online/Online.jsx           | JavaScript |         13 |          0 |          3 |         16 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/online/online.css           | CSS        |         28 |          0 |          4 |         32 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/post/Post.jsx               | JavaScript |         79 |          0 |          7 |         86 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/post/post.css               | CSS        |         78 |          0 |         14 |         92 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/rightbar/Rightbar.jsx       | JavaScript |        117 |         57 |          6 |        180 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/rightbar/rightbar.css       | CSS        |        109 |          0 |         18 |        127 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/share/Share.jsx             | JavaScript |         94 |          0 |          6 |        100 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/share/share.css             | CSS        |         79 |          0 |         15 |         94 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/sidebar/Sidebar.jsx         | JavaScript |         43 |          5 |          2 |         50 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/sidebar/sidebar.css         | CSS        |         39 |          0 |          8 |         47 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/topbar/Topbar.jsx           | JavaScript |         60 |          2 |          2 |         64 |
+| /Users/dom/Desktop/BCU-Connect/client/src/components/topbar/topbar.css           | CSS        |         69 |         14 |          2 |         85 |
+| /Users/dom/Desktop/BCU-Connect/client/src/context/AuthActions.js                 | JavaScript |         18 |          0 |          5 |         23 |
+| /Users/dom/Desktop/BCU-Connect/client/src/context/AuthContext.js                 | JavaScript |         26 |          0 |          7 |         33 |
+| /Users/dom/Desktop/BCU-Connect/client/src/context/AuthReducer.js                 | JavaScript |         43 |          0 |          2 |         45 |
+| /Users/dom/Desktop/BCU-Connect/client/src/dummyData.js                           | JavaScript |        138 |          0 |          2 |        140 |
+| /Users/dom/Desktop/BCU-Connect/client/src/index.js                               | JavaScript |         12 |          0 |          2 |         14 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/home/Home.jsx                    | JavaScript |         17 |          0 |          2 |         19 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/home/home.css                    | CSS        |          4 |          0 |          0 |          4 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/login/Login copy.jsx             | JavaScript |         63 |          0 |          4 |         67 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/login/Login.jsx                  | JavaScript |        138 |          0 |          8 |        146 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/login/login.css                  | CSS        |         80 |          0 |         12 |         92 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/messenger/Messenger.js           | JavaScript |        110 |          0 |          7 |        117 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/messenger/messenger.css          | CSS        |         63 |          0 |          4 |         67 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/profile/Profile.jsx              | JavaScript |         50 |          7 |          4 |         61 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/profile/profile.css              | CSS        |         45 |          0 |         10 |         55 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/register/Register copy.jsx       | JavaScript |         77 |          0 |          4 |         81 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/register/Register.jsx            | JavaScript |        178 |         48 |         11 |        237 |
+| /Users/dom/Desktop/BCU-Connect/client/src/pages/register/register.css            | CSS        |         74 |          0 |         10 |         84 |
+| Total                                                                            |            |     42,068 |        158 |        321 |     42,547 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
